@@ -14,7 +14,7 @@ public class SpecialIndex
            if(!Character.isDigit(str.charAt(i))&&!Character.isWhitespace(str.charAt(i))&&!Character.isLetter(str.charAt(i)))
            {
             count++;
-            System.out.println("special character at index "+i);
+            System.out.println("special character at index "+(i+1));
            }
            else
            {
