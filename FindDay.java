@@ -7,7 +7,7 @@ public class FindDay
     public static void main(String[] args) throws ParseException 
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter date(DD/MM/YYYY):");
+        System.out.println("Enter date(DD MM YYYY):");
         String date1 = sc.nextLine();
         SimpleDateFormat date0 = new SimpleDateFormat("dd MM yyyy");
         Date date2 = date0.parse(date1);
